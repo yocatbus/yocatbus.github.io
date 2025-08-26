@@ -1,0 +1,42 @@
+.hero {
+    background-image: url('/src/img/neb.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+.heroText {
+    background-color: rgba(0, 0, 0, 0.436);
+    border-radius: 25px;
+}
+
+.heroText h1 {
+    font-size: 10vw;
+    font-weight: 800;
+    color: ivory;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 773px) {
+    .hero {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .heroText {
+        background-color: rgba(0, 0, 0, 0.436);
+        border-radius: 25px;
+        width: fit-content;
+    }
+    
+    .heroText h1 {
+        font-size: 5em;
+        font-weight: 800;
+        color: ivory;
+        margin: 0;
+    }
+  }

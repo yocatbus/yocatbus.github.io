@@ -1,0 +1,12 @@
+.App {
+  z-index: 300;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  height: 100vh;
+  width: 100vw;
+}
+
+nav a.active {
+  color: rgb(0, 169, 172);
+}
+

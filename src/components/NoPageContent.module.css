@@ -1,0 +1,43 @@
+.noPageContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text404 {
+    color: ivory;
+    width: 50vw;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 3.5em;
+    margin: 0;
+    position: relative;
+    z-index: 302;
+    background-color: rgba(0, 0, 0, 0.436);
+    border-radius: 15px 15px 0 0;
+}
+
+.text {
+    z-index: 302;
+    position: relative;
+    font-size: 1.5em;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding: 1em;
+    border-radius: 0 0 15px 15px;
+}
+
+.img404 {
+    z-index: 301;
+}
+
+.img {
+    height: 80vh;
+    z-index: 301;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

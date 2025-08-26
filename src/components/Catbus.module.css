@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textContainer {
+    color: ivory;
+    max-width: 50vw;
+}
+
+.catbusImg {
+    height: 70vh;
+}
